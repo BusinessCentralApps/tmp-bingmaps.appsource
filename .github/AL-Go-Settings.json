@@ -1,0 +1,32 @@
+{
+  "unusedALGoSystemFiles": [
+    "AddExistingAppOrTestApp.yaml",
+    "CreateApp.yaml",
+    "CreateTestApp.yaml",
+    "CreatePerformanceTestApp.yaml"
+  ],
+  "doNotPublishApps": true,
+  "CurrentSchedule": "0 2 * * 1,2,3,4,5",
+  "deliverToAppSource": {
+    "branches": [
+      "main",
+      "e2e"
+    ]
+  },
+  "templateSha": "52f5ff81bf4c58846d15cb593589596bb573b504",
+  "useProjectDependencies": true,
+  "MicrosoftTelemetryConnectionString": "",
+  "trustedSigning": {
+    "CertificateProfile": "BCCodeSigningPublic",
+    "Endpoint": "https://neu.codesigning.azure.net",
+    "Account": "BCCodeSigningTest"
+  },
+  "type": "AppSource App",
+  "AZURE_CREDENTIALSSecretName": "AZURE_CREDENTIALS",
+  "templateUrl": "https://github.com/microsoft/AL-Go-AppSource@preview",
+  "useCompilerFolder": true,
+  "NextMajorSchedule": "0 2 * * 0",
+  "ghTokenWorkflowSecretName": "e2eghTokenWorkflow",
+  "runs-on": "ubuntu-latest",
+  "NextMinorSchedule": "0 2 * * 6"
+}
