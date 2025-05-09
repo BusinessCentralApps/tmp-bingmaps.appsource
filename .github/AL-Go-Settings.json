@@ -13,7 +13,7 @@
       "e2e"
     ]
   },
-  "templateSha": "52f5ff81bf4c58846d15cb593589596bb573b504",
+  "templateSha": "0bce00b3fdca84ec33663487ee36cdaf7d274d96",
   "useProjectDependencies": true,
   "MicrosoftTelemetryConnectionString": "",
   "trustedSigning": {
@@ -23,7 +23,7 @@
   },
   "type": "AppSource App",
   "AZURE_CREDENTIALSSecretName": "AZURE_CREDENTIALS",
-  "templateUrl": "https://github.com/microsoft/AL-Go-AppSource@preview",
+  "templateUrl": "https://github.com/BusinessCentralApps/tmpSUtfAh-AppSource@main",
   "useCompilerFolder": true,
   "NextMajorSchedule": "0 2 * * 0",
   "ghTokenWorkflowSecretName": "e2eghTokenWorkflow",
