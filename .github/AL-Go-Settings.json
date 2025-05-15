@@ -17,7 +17,7 @@
   "AZURE_CREDENTIALSSecretName": "AZURE_CREDENTIALS",
   "NextMinorSchedule": "0 2 * * 6",
   "NextMajorSchedule": "0 2 * * 0",
-  "templateUrl": "https://github.com/microsoft/AL-Go-AppSource@preview",
+  "templateUrl": "https://github.com/businesscentralapps/tmpmWB6J9-AppSource@main",
   "ghTokenWorkflowSecretName": "e2eghTokenWorkflow",
   "trustedSigning": {
     "Endpoint": "https://neu.codesigning.azure.net",
@@ -26,7 +26,7 @@
   },
   "CurrentSchedule": "0 2 * * 1,2,3,4,5",
   "type": "AppSource App",
-  "templateSha": "52f5ff81bf4c58846d15cb593589596bb573b504",
+  "templateSha": "94016099cf8fedd5995f606b48a1c4be1a1fd2f3",
   "useCompilerFolder": true,
   "runs-on": "ubuntu-latest"
 }
