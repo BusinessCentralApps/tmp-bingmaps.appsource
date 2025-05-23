@@ -11,6 +11,7 @@
     "CreatePerformanceTestApp.yaml"
   ],
   "templateSha": "32a804ffefffb780e2c50e98f6c227598057ea35",
+  "versioningStrategy": 3,
   "AZURE_CREDENTIALSSecretName": "AZURE_CREDENTIALS",
   "deliverToAppSource": {
     "branches": [
