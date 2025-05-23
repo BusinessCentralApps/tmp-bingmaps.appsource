@@ -1,7 +1,7 @@
 {
   "ghTokenWorkflowSecretName": "e2eghTokenWorkflow",
   "runs-on": "ubuntu-latest",
-  "templateUrl": "https://github.com/microsoft/AL-Go-AppSource@preview",
+  "templateUrl": "https://github.com/businesscentralapps/tmpDQopDM-AppSource@main",
   "useCompilerFolder": true,
   "useProjectDependencies": true,
   "unusedALGoSystemFiles": [
@@ -10,7 +10,7 @@
     "CreateTestApp.yaml",
     "CreatePerformanceTestApp.yaml"
   ],
-  "templateSha": "52f5ff81bf4c58846d15cb593589596bb573b504",
+  "templateSha": "32a804ffefffb780e2c50e98f6c227598057ea35",
   "AZURE_CREDENTIALSSecretName": "AZURE_CREDENTIALS",
   "deliverToAppSource": {
     "branches": [
