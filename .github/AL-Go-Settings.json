@@ -4,14 +4,14 @@
   "NextMajorSchedule": "0 2 * * 0",
   "useCompilerFolder": true,
   "type": "AppSource App",
-  "templateSha": "52f5ff81bf4c58846d15cb593589596bb573b504",
+  "templateSha": "a68a428dec52bd6925d82c5371d3b9169a99aa2c",
   "deliverToAppSource": {
     "branches": [
       "main",
       "e2e"
     ]
   },
-  "templateUrl": "https://github.com/microsoft/AL-Go-AppSource@preview",
+  "templateUrl": "https://github.com/businesscentralapps/tmpx26ILq-AppSource@main",
   "AZURE_CREDENTIALSSecretName": "AZURE_CREDENTIALS",
   "runs-on": "ubuntu-latest",
   "doNotPublishApps": true,
