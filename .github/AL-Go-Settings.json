@@ -1,10 +1,12 @@
 {
   "MicrosoftTelemetryConnectionString": "",
+  "useProjectDependencies": true,
   "CurrentSchedule": "0 2 * * 1,2,3,4,5",
   "NextMajorSchedule": "0 2 * * 0",
   "useCompilerFolder": true,
   "type": "AppSource App",
   "templateSha": "a68a428dec52bd6925d82c5371d3b9169a99aa2c",
+  "versioningStrategy": 3,
   "deliverToAppSource": {
     "branches": [
       "main",
@@ -12,7 +14,6 @@
     ]
   },
   "templateUrl": "https://github.com/businesscentralapps/tmpx26ILq-AppSource@main",
-  "AZURE_CREDENTIALSSecretName": "AZURE_CREDENTIALS",
   "runs-on": "ubuntu-latest",
   "doNotPublishApps": true,
   "NextMinorSchedule": "0 2 * * 6",
@@ -28,5 +29,5 @@
     "CreateTestApp.yaml",
     "CreatePerformanceTestApp.yaml"
   ],
-  "useProjectDependencies": true
+  "AZURE_CREDENTIALSSecretName": "AZURE_CREDENTIALS"
 }
