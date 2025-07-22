@@ -1,13 +1,14 @@
 {
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/1598a2b57bfbf523c09d70b47177965180a70e9c/settings.schema.json",
   "doNotPublishApps": true,
-  "templateUrl": "https://github.com/microsoft/AL-Go-AppSource@preview",
+  "templateUrl": "https://github.com/businesscentralapps/tmpE6GK79-AppSource@main",
   "MicrosoftTelemetryConnectionString": "",
   "useCompilerFolder": true,
   "CurrentSchedule": "0 2 * * 1,2,3,4,5",
   "type": "AppSource App",
   "runs-on": "ubuntu-latest",
   "useProjectDependencies": true,
-  "templateSha": "1a78239c6dd89870bae4629d7d80406eaf51fc67",
+  "templateSha": "91d8bca61f90bf1621b6e3cae6ae1fca6fefc9cf",
   "trustedSigning": {
     "Account": "BCCodeSigningTest",
     "Endpoint": "https://neu.codesigning.azure.net",
