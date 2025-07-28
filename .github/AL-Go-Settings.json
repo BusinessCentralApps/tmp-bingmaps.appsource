@@ -1,5 +1,4 @@
 {
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/2cc8f6277433dbc2d7e066f9037d2084637c6347/settings.schema.json",
   "templateUrl": "https://github.com/businesscentralapps/tmpDl9VrG-AppSource@main",
   "trustedSigning": {
     "Endpoint": "https://neu.codesigning.azure.net",
@@ -13,21 +12,23 @@
     "CreateTestApp.yaml",
     "CreatePerformanceTestApp.yaml"
   ],
-  "AZURE_CREDENTIALSSecretName": "AZURE_CREDENTIALS",
-  "NextMajorSchedule": "0 2 * * 0",
-  "MicrosoftTelemetryConnectionString": "",
-  "useProjectDependencies": true,
-  "type": "AppSource App",
-  "CurrentSchedule": "0 2 * * 1,2,3,4,5",
-  "NextMinorSchedule": "0 2 * * 6",
-  "ghTokenWorkflowSecretName": "e2eghTokenWorkflow",
-  "doNotPublishApps": true,
   "runs-on": "ubuntu-latest",
+  "AZURE_CREDENTIALSSecretName": "AZURE_CREDENTIALS",
+  "versioningStrategy": 3,
+  "NextMajorSchedule": "0 2 * * 0",
   "deliverToAppSource": {
     "branches": [
       "main",
       "e2e"
     ]
   },
+  "MicrosoftTelemetryConnectionString": "",
+  "useProjectDependencies": true,
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/2cc8f6277433dbc2d7e066f9037d2084637c6347/settings.schema.json",
+  "CurrentSchedule": "0 2 * * 1,2,3,4,5",
+  "NextMinorSchedule": "0 2 * * 6",
+  "doNotPublishApps": true,
+  "ghTokenWorkflowSecretName": "e2eghTokenWorkflow",
+  "type": "AppSource App",
   "useCompilerFolder": true
 }
