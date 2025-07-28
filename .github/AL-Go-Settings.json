@@ -1,11 +1,12 @@
 {
-  "templateUrl": "https://github.com/microsoft/AL-Go-AppSource@preview",
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/2cc8f6277433dbc2d7e066f9037d2084637c6347/settings.schema.json",
+  "templateUrl": "https://github.com/businesscentralapps/tmpDl9VrG-AppSource@main",
   "trustedSigning": {
     "Endpoint": "https://neu.codesigning.azure.net",
     "CertificateProfile": "BCCodeSigningPublic",
     "Account": "BCCodeSigningTest"
   },
-  "templateSha": "1a78239c6dd89870bae4629d7d80406eaf51fc67",
+  "templateSha": "38fb5850466c3ab0a5511bd3fe3b4d09c393da21",
   "unusedALGoSystemFiles": [
     "AddExistingAppOrTestApp.yaml",
     "CreateApp.yaml",
