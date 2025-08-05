@@ -1,5 +1,4 @@
 {
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/d101244b872b091a8894c1ba4d58e5f0b652823e/settings.schema.json",
   "NextMinorSchedule": "0 2 * * 6",
   "AZURE_CREDENTIALSSecretName": "AZURE_CREDENTIALS",
   "templateSha": "8773ed2dcdb833a74212254114369129b238addc",
@@ -10,15 +9,16 @@
       "e2e"
     ]
   },
-  "MicrosoftTelemetryConnectionString": "",
   "useProjectDependencies": true,
   "templateUrl": "https://github.com/businesscentralapps/tmpAZRoZZ-AppSource@main",
   "trustedSigning": {
     "Endpoint": "https://neu.codesigning.azure.net",
-    "CertificateProfile": "BCCodeSigningPublic",
-    "Account": "BCCodeSigningTest"
+    "Account": "BCCodeSigningTest",
+    "CertificateProfile": "BCCodeSigningPublic"
   },
   "useCompilerFolder": true,
+  "MicrosoftTelemetryConnectionString": "",
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/d101244b872b091a8894c1ba4d58e5f0b652823e/settings.schema.json",
   "runs-on": "ubuntu-latest",
   "unusedALGoSystemFiles": [
     "AddExistingAppOrTestApp.yaml",
@@ -27,6 +27,7 @@
     "CreatePerformanceTestApp.yaml"
   ],
   "CurrentSchedule": "0 2 * * 1,2,3,4,5",
+  "versioningStrategy": 3,
   "type": "AppSource App",
   "doNotPublishApps": true,
   "NextMajorSchedule": "0 2 * * 0"

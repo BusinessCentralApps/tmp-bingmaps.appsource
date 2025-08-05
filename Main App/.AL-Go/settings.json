@@ -1,20 +1,20 @@
 {
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/d101244b872b091a8894c1ba4d58e5f0b652823e/settings.schema.json",
-  "country": "us",
-  "VersioningStrategy": 16,
-  "CodeSignCertificateUrlSecretName": "CodeSignCertificateUrl",
   "CodeSignCertificatePasswordSecretName": "CodeSignCertificatePassword",
+  "generateDependencyArtifact": true,
+  "CodeSignCertificateUrlSecretName": "CodeSignCertificateUrl",
+  "deliverToAppSource": {
+    "mainAppFolder": "BingMaps-AppSource",
+    "continuousDelivery": true,
+    "includeDependencies": [
+      "Freddy Kristiansen_*.app"
+    ],
+    "productId": "5fbe0803-a545-4504-b41a-d9d158112360"
+  },
+  "country": "us",
+  "RepoVersion": "4.8.289",
   "appSourceCopMandatoryAffixes": [
     "BIN"
   ],
-  "deliverToAppSource": {
-    "productId": "5fbe0803-a545-4504-b41a-d9d158112360",
-    "continuousDelivery": true,
-    "mainAppFolder": "BingMaps-AppSource",
-    "includeDependencies": [
-      "Freddy Kristiansen_*.app"
-    ]
-  },
-  "generateDependencyArtifact": true,
-  "RepoVersion": "4.8"
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/d101244b872b091a8894c1ba4d58e5f0b652823e/settings.schema.json",
+  "VersioningStrategy": 3
 }
