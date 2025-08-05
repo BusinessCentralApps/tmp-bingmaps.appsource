@@ -1,7 +1,8 @@
 {
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/d101244b872b091a8894c1ba4d58e5f0b652823e/settings.schema.json",
   "NextMinorSchedule": "0 2 * * 6",
   "AZURE_CREDENTIALSSecretName": "AZURE_CREDENTIALS",
-  "templateSha": "1a78239c6dd89870bae4629d7d80406eaf51fc67",
+  "templateSha": "8773ed2dcdb833a74212254114369129b238addc",
   "ghTokenWorkflowSecretName": "e2eghTokenWorkflow",
   "deliverToAppSource": {
     "branches": [
@@ -11,7 +12,7 @@
   },
   "MicrosoftTelemetryConnectionString": "",
   "useProjectDependencies": true,
-  "templateUrl": "https://github.com/microsoft/AL-Go-AppSource@preview",
+  "templateUrl": "https://github.com/businesscentralapps/tmpAZRoZZ-AppSource@main",
   "trustedSigning": {
     "Endpoint": "https://neu.codesigning.azure.net",
     "CertificateProfile": "BCCodeSigningPublic",
