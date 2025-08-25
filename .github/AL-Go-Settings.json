@@ -1,6 +1,7 @@
 {
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/2c668352f46288fa4e285ee9b213c2dbf0ee6bde/settings.schema.json",
   "AZURE_CREDENTIALSSecretName": "AZURE_CREDENTIALS",
-  "templateUrl": "https://github.com/microsoft/AL-Go-AppSource@preview",
+  "templateUrl": "https://github.com/businesscentralapps/tmpCQysqS-AppSource@main",
   "deliverToAppSource": {
     "branches": [
       "main",
@@ -9,7 +10,7 @@
   },
   "useProjectDependencies": true,
   "CurrentSchedule": "0 2 * * 1,2,3,4,5",
-  "templateSha": "1a78239c6dd89870bae4629d7d80406eaf51fc67",
+  "templateSha": "51dba3dc8b0a7dace2f6bace8225f58404ef33e0",
   "trustedSigning": {
     "Endpoint": "https://neu.codesigning.azure.net",
     "Account": "BCCodeSigningTest",
