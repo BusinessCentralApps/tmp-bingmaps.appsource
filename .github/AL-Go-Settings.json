@@ -1,33 +1,34 @@
 {
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/62f89daf74d193c3bd2931fdc54f66bf49e47be7/.Modules/settings.schema.json",
-  "templateSha": "0ffd0e76681e2ce4bc53769e91cead62ccfd88aa",
+  "versioningStrategy": 3,
+  "useProjectDependencies": true,
   "MicrosoftTelemetryConnectionString": "",
-  "AZURE_CREDENTIALSSecretName": "AZURE_CREDENTIALS",
+  "CurrentSchedule": "0 2 * * 1,2,3,4,5",
   "useCompilerFolder": true,
   "ghTokenWorkflowSecretName": "e2eghTokenWorkflow",
   "runs-on": "ubuntu-latest",
-  "NextMajorSchedule": "0 2 * * 0",
+  "AZURE_CREDENTIALSSecretName": "AZURE_CREDENTIALS",
   "trustedSigning": {
-    "CertificateProfile": "BCCodeSigningPublic",
+    "Account": "BCCodeSigningTest",
     "Endpoint": "https://neu.codesigning.azure.net",
-    "Account": "BCCodeSigningTest"
-  },
-  "type": "AppSource App",
-  "deliverToAppSource": {
-    "branches": [
-      "main",
-      "e2e"
-    ]
+    "CertificateProfile": "BCCodeSigningPublic"
   },
   "doNotPublishApps": true,
+  "type": "AppSource App",
+  "templateSha": "0ffd0e76681e2ce4bc53769e91cead62ccfd88aa",
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/62f89daf74d193c3bd2931fdc54f66bf49e47be7/.Modules/settings.schema.json",
   "unusedALGoSystemFiles": [
     "AddExistingAppOrTestApp.yaml",
     "CreateApp.yaml",
     "CreateTestApp.yaml",
     "CreatePerformanceTestApp.yaml"
   ],
-  "templateUrl": "https://github.com/businesscentralapps/tmpZa8mvS-AppSource@main",
+  "NextMajorSchedule": "0 2 * * 0",
   "NextMinorSchedule": "0 2 * * 6",
-  "useProjectDependencies": true,
-  "CurrentSchedule": "0 2 * * 1,2,3,4,5"
+  "deliverToAppSource": {
+    "branches": [
+      "main",
+      "e2e"
+    ]
+  },
+  "templateUrl": "https://github.com/businesscentralapps/tmpZa8mvS-AppSource@main"
 }
