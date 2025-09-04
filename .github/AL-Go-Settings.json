@@ -1,5 +1,6 @@
 {
-  "templateSha": "1a78239c6dd89870bae4629d7d80406eaf51fc67",
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/62f89daf74d193c3bd2931fdc54f66bf49e47be7/.Modules/settings.schema.json",
+  "templateSha": "0ffd0e76681e2ce4bc53769e91cead62ccfd88aa",
   "MicrosoftTelemetryConnectionString": "",
   "AZURE_CREDENTIALSSecretName": "AZURE_CREDENTIALS",
   "useCompilerFolder": true,
@@ -25,7 +26,7 @@
     "CreateTestApp.yaml",
     "CreatePerformanceTestApp.yaml"
   ],
-  "templateUrl": "https://github.com/microsoft/AL-Go-AppSource@preview",
+  "templateUrl": "https://github.com/businesscentralapps/tmpZa8mvS-AppSource@main",
   "NextMinorSchedule": "0 2 * * 6",
   "useProjectDependencies": true,
   "CurrentSchedule": "0 2 * * 1,2,3,4,5"
