@@ -1,7 +1,6 @@
 {
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/32e66d69cfd2c1e3eca39e416e27c6aa58de6df3/.Modules/settings.schema.json",
   "CurrentSchedule": "0 2 * * 1,2,3,4,5",
-  "useProjectDependencies": true,
+  "AZURE_CREDENTIALSSecretName": "AZURE_CREDENTIALS",
   "type": "AppSource App",
   "runs-on": "ubuntu-latest",
   "deliverToAppSource": {
@@ -10,17 +9,19 @@
       "e2e"
     ]
   },
-  "AZURE_CREDENTIALSSecretName": "AZURE_CREDENTIALS",
+  "MicrosoftTelemetryConnectionString": "",
   "templateSha": "b4545e8a999de531daba96f15cddef2d8573926d",
   "doNotPublishApps": true,
   "useCompilerFolder": true,
+  "versioningStrategy": 3,
   "templateUrl": "https://github.com/businesscentralapps/tmpTat370-AppSource@main",
   "trustedSigning": {
     "Account": "BCCodeSigningTest",
     "CertificateProfile": "BCCodeSigningPublic",
     "Endpoint": "https://neu.codesigning.azure.net"
   },
-  "MicrosoftTelemetryConnectionString": "",
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/32e66d69cfd2c1e3eca39e416e27c6aa58de6df3/.Modules/settings.schema.json",
+  "useProjectDependencies": true,
   "NextMajorSchedule": "0 2 * * 0",
   "ghTokenWorkflowSecretName": "e2eghTokenWorkflow",
   "unusedALGoSystemFiles": [
