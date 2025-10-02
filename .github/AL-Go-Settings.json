@@ -1,7 +1,7 @@
 {
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/7ca7504231b4a19e692f3d8eb8331e2be2a05f5e/.Modules/settings.schema.json",
   "MicrosoftTelemetryConnectionString": "",
   "ghTokenWorkflowSecretName": "e2eghTokenWorkflow",
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/55f06533726d052e7603277236f2bcbcd67fa6cf/Actions/.Modules/settings.schema.json",
   "trustedSigning": {
     "CertificateProfile": "BCCodeSigningPublic",
     "Endpoint": "https://neu.codesigning.azure.net",
@@ -21,11 +21,11 @@
     "CreatePerformanceTestApp.yaml"
   ],
   "useProjectDependencies": true,
-  "templateUrl": "https://github.com/microsoft/AL-Go-AppSource@preview",
+  "templateUrl": "https://github.com/businesscentralapps/tmpFTUdp7-AppSource@main",
   "trackALAlertsInGitHub": true,
   "runs-on": "ubuntu-latest",
   "useCompilerFolder": true,
   "doNotPublishApps": true,
   "type": "AppSource App",
-  "templateSha": "975f426167ed623761777eb2560ee7ec7ce0ab5d"
+  "templateSha": "b9e8e8bdc4f60aaa15ea0dde64072a9ee7fec7c2"
 }
