@@ -1,12 +1,12 @@
 {
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/54896140025c9a5238ea8217932bdb638e399041/.Modules/settings.schema.json",
-  "country": "us",
-  "VersioningStrategy": 16,
+  "RepoVersion": "4.8.292",
   "CodeSignCertificateUrlSecretName": "CodeSignCertificateUrl",
   "CodeSignCertificatePasswordSecretName": "CodeSignCertificatePassword",
+  "VersioningStrategy": 3,
+  "country": "us",
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/54896140025c9a5238ea8217932bdb638e399041/.Modules/settings.schema.json",
   "appSourceCopMandatoryAffixes": [
     "BIN"
   ],
-  "generateDependencyArtifact": true,
-  "RepoVersion": "4.8"
+  "generateDependencyArtifact": true
 }
