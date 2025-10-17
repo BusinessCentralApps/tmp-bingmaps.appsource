@@ -1,6 +1,6 @@
 {
-  "templateUrl": "https://github.com/microsoft/AL-Go-AppSource@preview",
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/55f06533726d052e7603277236f2bcbcd67fa6cf/Actions/.Modules/settings.schema.json",
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/54896140025c9a5238ea8217932bdb638e399041/.Modules/settings.schema.json",
+  "templateUrl": "https://github.com/businesscentralapps/tmptsn7Fg-AppSource@main",
   "ghTokenWorkflowSecretName": "e2eghTokenWorkflow",
   "AZURE_CREDENTIALSSecretName": "AZURE_CREDENTIALS",
   "MicrosoftTelemetryConnectionString": "",
@@ -18,7 +18,7 @@
     "Account": "BCCodeSigningTest",
     "Endpoint": "https://neu.codesigning.azure.net"
   },
-  "templateSha": "975f426167ed623761777eb2560ee7ec7ce0ab5d",
+  "templateSha": "66dfeedac1302e74a056f30826071990abd0d53b",
   "deliverToAppSource": {
     "branches": [
       "main",
