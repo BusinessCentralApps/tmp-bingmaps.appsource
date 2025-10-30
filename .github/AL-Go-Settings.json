@@ -1,5 +1,4 @@
 {
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/432ea51162e5da9bbdfdc8dc9ec1844e100f6725/.Modules/settings.schema.json",
   "unusedALGoSystemFiles": [
     "AddExistingAppOrTestApp.yaml",
     "CreateApp.yaml",
@@ -22,10 +21,12 @@
   },
   "ghTokenWorkflowSecretName": "e2eghTokenWorkflow",
   "useCompilerFolder": true,
-  "runs-on": "ubuntu-latest",
   "templateSha": "90afb2c4a37b8af3791e0135ee8f6d5a0db93293",
   "templateUrl": "https://github.com/businesscentralapps/tmp9b60oM-AppSource@main",
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/432ea51162e5da9bbdfdc8dc9ec1844e100f6725/.Modules/settings.schema.json",
   "trackALAlertsInGitHub": true,
+  "versioningStrategy": 3,
   "useProjectDependencies": true,
+  "runs-on": "ubuntu-latest",
   "MicrosoftTelemetryConnectionString": ""
 }
