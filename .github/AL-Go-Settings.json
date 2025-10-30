@@ -1,11 +1,11 @@
 {
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/432ea51162e5da9bbdfdc8dc9ec1844e100f6725/.Modules/settings.schema.json",
   "unusedALGoSystemFiles": [
     "AddExistingAppOrTestApp.yaml",
     "CreateApp.yaml",
     "CreateTestApp.yaml",
     "CreatePerformanceTestApp.yaml"
   ],
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/55f06533726d052e7603277236f2bcbcd67fa6cf/Actions/.Modules/settings.schema.json",
   "AZURE_CREDENTIALSSecretName": "AZURE_CREDENTIALS",
   "doNotPublishApps": true,
   "type": "AppSource App",
@@ -23,8 +23,8 @@
   "ghTokenWorkflowSecretName": "e2eghTokenWorkflow",
   "useCompilerFolder": true,
   "runs-on": "ubuntu-latest",
-  "templateSha": "975f426167ed623761777eb2560ee7ec7ce0ab5d",
-  "templateUrl": "https://github.com/microsoft/AL-Go-AppSource@preview",
+  "templateSha": "90afb2c4a37b8af3791e0135ee8f6d5a0db93293",
+  "templateUrl": "https://github.com/businesscentralapps/tmp9b60oM-AppSource@main",
   "trackALAlertsInGitHub": true,
   "useProjectDependencies": true,
   "MicrosoftTelemetryConnectionString": ""
