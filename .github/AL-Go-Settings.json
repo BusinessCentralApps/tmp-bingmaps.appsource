@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/ecbbde1e146bc26fa6e7aef790bcafe87e72ab2d/.Modules/settings.schema.json",
   "doNotPublishApps": true,
   "ghTokenWorkflowSecretName": "e2eghTokenWorkflow",
   "type": "AppSource App",
@@ -8,7 +9,6 @@
     "Endpoint": "https://neu.codesigning.azure.net"
   },
   "useCompilerFolder": true,
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/55f06533726d052e7603277236f2bcbcd67fa6cf/Actions/.Modules/settings.schema.json",
   "deliverToAppSource": {
     "branches": [
       "main",
@@ -17,8 +17,8 @@
   },
   "useProjectDependencies": true,
   "AZURE_CREDENTIALSSecretName": "AZURE_CREDENTIALS",
-  "templateSha": "975f426167ed623761777eb2560ee7ec7ce0ab5d",
-  "templateUrl": "https://github.com/microsoft/AL-Go-AppSource@preview",
+  "templateSha": "b6127e5a62855b591c9639b3cd0d49458fb2d6e7",
+  "templateUrl": "https://github.com/businesscentralapps/tmp62Kfqw-AppSource@main",
   "trackALAlertsInGitHub": true,
   "MicrosoftTelemetryConnectionString": "",
   "runs-on": "ubuntu-latest",
