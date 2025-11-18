@@ -1,7 +1,8 @@
 {
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/646f103480ad85b9a8638587c497b1448472b8ad/.Modules/settings.schema.json",
   "type": "AppSource App",
   "AZURE_CREDENTIALSSecretName": "AZURE_CREDENTIALS",
-  "templateUrl": "https://github.com/microsoft/AL-Go-AppSource@preview",
+  "templateUrl": "https://github.com/businesscentralapps/tmpaTN1kR-AppSource@main",
   "MicrosoftTelemetryConnectionString": "",
   "useProjectDependencies": true,
   "unusedALGoSystemFiles": [
@@ -17,7 +18,7 @@
   },
   "useCompilerFolder": true,
   "runs-on": "ubuntu-latest",
-  "templateSha": "975f426167ed623761777eb2560ee7ec7ce0ab5d",
+  "templateSha": "16bf5da017001a8517df35ef18192f44dbcad386",
   "deliverToAppSource": {
     "branches": [
       "main",
@@ -26,6 +27,5 @@
   },
   "ghTokenWorkflowSecretName": "e2eghTokenWorkflow",
   "doNotPublishApps": true,
-  "trackALAlertsInGitHub": true,
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/55f06533726d052e7603277236f2bcbcd67fa6cf/Actions/.Modules/settings.schema.json"
+  "trackALAlertsInGitHub": true
 }
