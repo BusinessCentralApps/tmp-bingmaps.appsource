@@ -1,12 +1,10 @@
 {
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/78e60e616b7e5f968b7f0e15ebf2c7dd2c7d18ab/.Modules/settings.schema.json",
   "useProjectDependencies": true,
   "trustedSigning": {
     "CertificateProfile": "BCCodeSigningPublic",
     "Endpoint": "https://neu.codesigning.azure.net",
     "Account": "BCCodeSigningTest"
   },
-  "doNotPublishApps": true,
   "templateSha": "43ba81aab42f4ce125741426cf570671e1cc324d",
   "unusedALGoSystemFiles": [
     "AddExistingAppOrTestApp.yaml",
@@ -15,15 +13,18 @@
     "CreatePerformanceTestApp.yaml"
   ],
   "trackALAlertsInGitHub": true,
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/78e60e616b7e5f968b7f0e15ebf2c7dd2c7d18ab/.Modules/settings.schema.json",
   "runs-on": "ubuntu-latest",
   "templateUrl": "https://github.com/businesscentralapps/tmpmt2iGn-AppSource@main",
   "MicrosoftTelemetryConnectionString": "",
+  "versioningStrategy": 3,
   "deliverToAppSource": {
     "branches": [
       "main",
       "e2e"
     ]
   },
+  "doNotPublishApps": true,
   "type": "AppSource App",
   "useCompilerFolder": true,
   "ghTokenWorkflowSecretName": "e2eghTokenWorkflow",
