@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/78e60e616b7e5f968b7f0e15ebf2c7dd2c7d18ab/.Modules/settings.schema.json",
   "useProjectDependencies": true,
   "trustedSigning": {
     "CertificateProfile": "BCCodeSigningPublic",
@@ -6,7 +7,7 @@
     "Account": "BCCodeSigningTest"
   },
   "doNotPublishApps": true,
-  "templateSha": "975f426167ed623761777eb2560ee7ec7ce0ab5d",
+  "templateSha": "43ba81aab42f4ce125741426cf570671e1cc324d",
   "unusedALGoSystemFiles": [
     "AddExistingAppOrTestApp.yaml",
     "CreateApp.yaml",
@@ -14,9 +15,8 @@
     "CreatePerformanceTestApp.yaml"
   ],
   "trackALAlertsInGitHub": true,
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/55f06533726d052e7603277236f2bcbcd67fa6cf/Actions/.Modules/settings.schema.json",
   "runs-on": "ubuntu-latest",
-  "templateUrl": "https://github.com/microsoft/AL-Go-AppSource@preview",
+  "templateUrl": "https://github.com/businesscentralapps/tmpmt2iGn-AppSource@main",
   "MicrosoftTelemetryConnectionString": "",
   "deliverToAppSource": {
     "branches": [
