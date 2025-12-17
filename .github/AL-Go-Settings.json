@@ -1,6 +1,7 @@
 {
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/8e1121ac5c991554529a778ca7bd92e82265fa42/.Modules/settings.schema.json",
   "MicrosoftTelemetryConnectionString": "",
-  "templateSha": "975f426167ed623761777eb2560ee7ec7ce0ab5d",
+  "templateSha": "74aad3dbdf0c5d84c917604bc4b3fe35380010a7",
   "deliverToAppSource": {
     "branches": [
       "main",
@@ -18,7 +19,6 @@
   "doNotPublishApps": true,
   "type": "AppSource App",
   "AZURE_CREDENTIALSSecretName": "AZURE_CREDENTIALS",
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/55f06533726d052e7603277236f2bcbcd67fa6cf/Actions/.Modules/settings.schema.json",
   "unusedALGoSystemFiles": [
     "AddExistingAppOrTestApp.yaml",
     "CreateApp.yaml",
@@ -26,6 +26,6 @@
     "CreatePerformanceTestApp.yaml"
   ],
   "useCompilerFolder": true,
-  "templateUrl": "https://github.com/microsoft/AL-Go-AppSource@preview",
+  "templateUrl": "https://github.com/businesscentralapps/tmppxjUhH-AppSource@main",
   "runs-on": "ubuntu-latest"
 }
