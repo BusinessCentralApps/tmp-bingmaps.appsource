@@ -1,6 +1,6 @@
 {
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/8e1121ac5c991554529a778ca7bd92e82265fa42/.Modules/settings.schema.json",
   "MicrosoftTelemetryConnectionString": "",
+  "runs-on": "ubuntu-latest",
   "templateSha": "74aad3dbdf0c5d84c917604bc4b3fe35380010a7",
   "deliverToAppSource": {
     "branches": [
@@ -8,24 +8,25 @@
       "e2e"
     ]
   },
-  "ghTokenWorkflowSecretName": "e2eghTokenWorkflow",
-  "trackALAlertsInGitHub": true,
+  "type": "AppSource App",
   "trustedSigning": {
     "Endpoint": "https://neu.codesigning.azure.net",
     "Account": "BCCodeSigningTest",
     "CertificateProfile": "BCCodeSigningPublic"
   },
   "useProjectDependencies": true,
-  "doNotPublishApps": true,
-  "type": "AppSource App",
-  "AZURE_CREDENTIALSSecretName": "AZURE_CREDENTIALS",
+  "templateUrl": "https://github.com/businesscentralapps/tmppxjUhH-AppSource@main",
+  "ghTokenWorkflowSecretName": "e2eghTokenWorkflow",
+  "useCompilerFolder": true,
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/8e1121ac5c991554529a778ca7bd92e82265fa42/.Modules/settings.schema.json",
   "unusedALGoSystemFiles": [
     "AddExistingAppOrTestApp.yaml",
     "CreateApp.yaml",
     "CreateTestApp.yaml",
     "CreatePerformanceTestApp.yaml"
   ],
-  "useCompilerFolder": true,
-  "templateUrl": "https://github.com/businesscentralapps/tmppxjUhH-AppSource@main",
-  "runs-on": "ubuntu-latest"
+  "versioningStrategy": 3,
+  "trackALAlertsInGitHub": true,
+  "doNotPublishApps": true,
+  "AZURE_CREDENTIALSSecretName": "AZURE_CREDENTIALS"
 }
