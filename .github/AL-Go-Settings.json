@@ -1,11 +1,12 @@
 {
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/b3b0575e5d52962223044af27ad01fca5cf9fc88/.Modules/settings.schema.json",
   "AZURE_CREDENTIALSSecretName": "AZURE_CREDENTIALS",
   "useCompilerFolder": true,
   "ghTokenWorkflowSecretName": "e2eghTokenWorkflow",
   "type": "AppSource App",
   "MicrosoftTelemetryConnectionString": "",
   "runs-on": "ubuntu-latest",
-  "templateSha": "975f426167ed623761777eb2560ee7ec7ce0ab5d",
+  "templateSha": "954ee876f409a9e1daf2dcb0a536d6d1ac128dfd",
   "trustedSigning": {
     "Account": "BCCodeSigningTest",
     "Endpoint": "https://neu.codesigning.azure.net",
@@ -24,8 +25,7 @@
     ]
   },
   "doNotPublishApps": true,
-  "templateUrl": "https://github.com/microsoft/AL-Go-AppSource@preview",
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/55f06533726d052e7603277236f2bcbcd67fa6cf/Actions/.Modules/settings.schema.json",
+  "templateUrl": "https://github.com/businesscentralapps/tmpK8LH8A-AppSource@main",
   "useProjectDependencies": true,
   "trackALAlertsInGitHub": true
 }
